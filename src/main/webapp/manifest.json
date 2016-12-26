@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "查看jrjvip",
+    "version": "1.0",
+    "description": "查看jrjvip",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },
+        "default_title": "查看jrjvip",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://zhibo.jrj.com.cn/index.php/Vip/masterViewpoint/type/new/rid/*"
+    ]
+}
